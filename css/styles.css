@@ -1,0 +1,168 @@
+  /******************** VARIABLES ********************/
+  :root {
+    --theme-color: #cae4db;
+    --accent-color: #f5f4f4;
+    --center-color: #cdac81;
+    --dark-color: #00303f;
+    --h3-and-a-text-color: #11999E;
+    --main-font: 'Montserrat', sans-serif;
+    --name-font: 'Merriweather Sans', sans-serif;
+    --hand-font: 'Marck Script', cursive;
+  }
+
+  /****************** TAG SELECTORS ******************/
+  body {
+    margin: 0;
+    text-align: center;
+    font-family: var(--main-font);
+    line-height: 2;
+    background-color: var(--theme-color);
+    color: var(--dark-color);
+  }
+
+  p {
+    padding: 1rem 0 2rem;
+    margin: 0;
+  }
+
+  h1 {
+    font-family: var(--hand-font);
+    font-size: 3.5rem;
+    color: var(--h3-and-a-text-color);
+    margin: 2rem 0 0 0;
+  }
+
+  h2 {
+    font-size: 2rem;
+    color: var(--h3-and-a-text-color);
+    margin: 0;
+  }
+
+  h3, a {
+    color: var(--center-color);
+  }
+
+  hr {
+    border: none;
+    border-top: 0.5rem dotted var(--accent-color);
+    width: 3%;
+    margin: 5rem auto;
+  }
+  /****************** CLASS SELECTORS ***************/
+  .header {
+    background-color: var(--theme-color);
+    padding-top: 9rem;
+    position: relative;
+  }
+
+  .header h2 {
+    font-weight: normal;
+    margin: 0;
+  }
+
+  .pro {
+    text-decoration: line-through;
+  }
+
+  .mountain {
+    opacity: 0.9;
+    margin: 3em 0 0 0;
+  }
+
+  .cloud {
+    opacity: 0.5;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    bottom: 40%;
+    left: 22%;
+  }
+
+  .top-cloud {
+    position: absolute;
+    right: 22%;
+    top: 3rem;
+  }
+
+  .profile, .skills {
+    width: 50%;
+    margin: 2rem auto;
+  }
+
+  .profile-img {
+    width: 30%;
+    margin: 2.5rem 0 0.5rem;
+  }
+
+  .skill-row {
+    text-align: left;
+    line-height: 2;
+    margin-top: 2.5rem;
+  }
+
+  .profile p, h2 {
+    margin: 0;
+  }
+
+  .skill-row p, h3 {
+    margin: 0;
+  }
+
+  .skill-computer-img {
+    width: 20%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 2rem;
+  }
+
+  .skill-dancing-img {
+    width: 20%;
+    border-radius: 100%;
+    float: right;
+    margin-left: 2rem;
+  }
+
+  .bottom-container {
+    background-color: var(--theme-color);
+    padding-top: 2rem;
+  }
+
+  .btn {
+    display: block;
+    width: 180px;
+    height: 2.5rem;
+    margin: 4rem auto 1rem;
+    padding-top: 0.2rem;
+    background-color:  var(--dark-color);
+    color: var(--accent-color);
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+
+  .btn:hover {
+    background-color: var(--h3-and-a-text-color);
+  }
+
+  .footer-link {
+    text-decoration: none;
+    color: var(--dark-color);
+    margin: 1rem 1rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .footer-link:hover {
+    color: var(--h3-and-a-text-color);
+  }
+
+  .bottom-container p {
+    color: var(--accent-color);
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 2rem 0 2rem;
+  }
+
+  /****************** ID SELECTORS ******************/
